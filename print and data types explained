@@ -1,0 +1,7 @@
+#data types
+#CRIBS
+#C = character set e.g. "a"
+#R = real/float e.g. 4.66
+#I = interger e.g. 222
+#B = boolean e.g. True
+#S = strings e.g. "hello"
