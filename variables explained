@@ -1,0 +1,42 @@
+#Variables explained
+
+#Variable definition:
+#A named location 
+#In a computer’s memory
+#That stores a value
+#And the value can change
+
+#This is a Variable
+#name = "Nathan"
+
+#The variable is called "name"
+#The variable is storing a value
+#The value is "Nathan"
+#Variables are used in games alot
+#For example:
+score = 0
+#The value in a variable can change (vary)
+#For example:
+score = 100
+
+#Variables always have a single equals sign
+
+time = 3.42
+name = "nathan"
+pregnant = True
+happy = "y"
+age = 14
+
+character = "f"
+realFloat = 6.12
+integer = 7
+boolean = False
+string = "sad"
+
+print("This is a character" ,character)
+print("This is a realFloat" ,realFloat)
+print("This is a integer" ,integer)
+print("This is a character" ,boolean)
+print("This is a character" ,string)  
+
+
