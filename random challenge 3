@@ -1,0 +1,17 @@
+#Random challenge3
+#The code below is meant to..
+#display a random times table..
+#Everytime you run the code.
+#Might be the 5 times table
+#Or the 3 times table
+#But, its got errors
+#Can you fix it?
+
+import random
+
+number = random.randint(1,12)
+
+for i in range(1,13):
+    print(i, "x", number, "=", i*number)
+    
+    
