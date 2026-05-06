@@ -1,0 +1,20 @@
+#Random challenge6
+#write some code that is like a dice
+#the code says "spacebar to roll or...
+#...press x to exit"
+#You press the spacebar then enter..
+#It generates a number between 1 and 6
+#Then asks you the question again...
+#until you press "x" then enter and it stops
+
+
+import random
+
+loop = True
+while loop == True:
+  roll = str(input("enter roll to roll or x to exit"))
+  if roll == "roll":
+    number = random.randint(1,6)
+    print(number)
+  else:
+    loop = False
