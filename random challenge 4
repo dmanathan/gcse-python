@@ -1,0 +1,25 @@
+#Random challenge4
+#The code below is meant to..
+#generate an integer between 1 and 12
+#generate another integer between 1 and 12
+#Multiply them together
+#Ask the user to multiply them together
+#Check if the user got the right answer
+#But, its got errors
+#Can you fix it?
+
+import random
+
+num1 = random.randint(1,12)
+number2 = random.randint(1,12)
+
+total = num1 * number2
+
+num1 = str(num1)
+num2 = str(number2)
+
+answer = int(input("What is "+num1+" x "+number2+">>>"))
+if total == answer:
+  print("correct!")
+else:
+  print("incorrect!")
