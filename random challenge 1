@@ -1,0 +1,10 @@
+#Random challenge1
+#The code below is meant to...
+#..generate a random integer..
+#..between zero and ten
+#Can you fix it?
+
+import random
+
+number = random.randint(0,10)
+print(number)
