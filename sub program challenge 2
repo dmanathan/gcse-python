@@ -1,0 +1,18 @@
+def COD():
+    one = " 1) dominations"
+    two = " 2) team deathmatch"
+    three = " 3) headquaters"
+    menu = [one, two, three]
+    print(menu)
+    option = int(input("choose an option>>>"))
+    if option == 1:
+        return(one)
+    elif option == 2:
+        return(two)
+    elif option == 3:
+        return(three)
+
+    else:
+        print("please enter 1, 2, or 3")
+print(COD())
+
