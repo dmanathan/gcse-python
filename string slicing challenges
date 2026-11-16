@@ -16,3 +16,50 @@ print(surname)
 boxer = "Muhammad Ali"
 surname = boxer[-3:]
 print(surname)
+
+#String slicing challenge3
+#The following code it meant...
+#..display the number of characters..
+#..in the boxer's name..i.e. 12
+#..(including the space)
+#Can you fix it?
+
+boxer = "muhammad Ali"
+length = len(boxer)
+print(length)
+
+
+#String slicing challenge4
+#The following code it meant...
+#..display the first name and..
+#..surname on separate lines
+#Can you fix it?
+
+boxer = "Muhammad Ali"
+firstname = boxer[0:8]
+surname = boxer[9:12]
+print(firstname)
+print(surname)
+
+
+#String slicing challenge5
+#The following code it meant...
+#..display "Muhammad THE GOAT Ali"
+#run it then fix it
+
+boxer = "Muhammad Ali"
+status = " THE GOAT "
+firstName = boxer[0:8]
+surname = boxer[9:12]
+print(firstName + status + surname)
+
+
+#String slicing challenge6
+#The code below asks a user to..
+#..enter their first name and..
+#..then tells them the first letter
+#Its not working, can you fix it?
+
+name = str(input("Enter your first name>>>"))
+letter = name[0]
+print("Your name begins with", letter)
